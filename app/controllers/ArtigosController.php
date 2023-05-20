@@ -1,7 +1,7 @@
 <?php
 use models\Artigo;
 
-class ArtigoaController {
+class ArtigosController {
 	function index($id = null){
 
 		#variáveis que serao passados para a view

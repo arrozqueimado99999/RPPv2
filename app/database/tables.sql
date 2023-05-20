@@ -1,13 +1,7 @@
-DROP TABLE IF EXISTS usuarios;
+DROP TABLE IF EXISTS artigos;
 
-CREATE TABLE IF NOT EXISTS usuarios (
+CREATE TABLE IF NOT EXISTS artigos (
     id              INTEGER PRIMARY KEY,
-    nome            TEXT    NOT NULL,
-    dataNascimento  TEXT,
-    tipo            INTEGER,
-    ativado         INTEGER
+    titulo           TEXT    NOT NULL,
+    texto  TEXT
 );
-
-INSERT INTO usuarios (id, nome, dataNascimento, tipo, ativado) values (1,'teste 1','01-01-2000',1,1);
-INSERT INTO usuarios (id, nome, dataNascimento, tipo, ativado) values (2,'teste 2','01-01-2001',1,1);
-INSERT INTO usuarios (id, nome, dataNascimento, tipo, ativado) values (3,'teste 3','01-01-2003',1,1);

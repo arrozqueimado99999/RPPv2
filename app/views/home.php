@@ -15,7 +15,7 @@
         <div class="card-body">
         <h3 class="card-title">Exemplo de CRUD</h3>
 
-        <p>Este projeto contém um exemplo de um CRUD de usuários: <a href="<?=route("usuarios")?>"><?=route("usuarios")?></a> </p>
+        <p>Este projeto contém um exemplo de um CRUD de usuários: <a href="<?=route("artigos")?>"><?=route("artigos")?></a> </p>
         </div>
     </div>
 
@@ -72,7 +72,7 @@
             <tr>
                 <th>route('usuarios')</th>
                 <td>
-                    Entrega para você o endereço para algum controle: <?=route('usuarios')?>
+                    Entrega para você o endereço para algum controle: <?=route('artigos')?>
                     Evite criar qualquer tipo de link sem essa função.
                 </td>
             </tr>
