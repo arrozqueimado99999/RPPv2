@@ -1,19 +1,7 @@
 <?php
 use models\Artigo;
 
-/**
-* Tutorial CRUD
-* Autor:Alan Klinger 05/06/2017
-*/
-
-#A classe devera sempre iniciar com letra maiuscula
-#terá sempre o mesmo nome do arquivo
-#e precisa terminar com a palavra Controller
-class UsuariosController {
-
-	/**
-	* Para acessar http://localhost/NOMEDOPROJETO/usuarios/index
-	**/
+class ArtigoaController {
 	function index($id = null){
 
 		#variáveis que serao passados para a view
