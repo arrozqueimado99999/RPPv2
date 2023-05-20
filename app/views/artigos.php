@@ -4,12 +4,12 @@
         <div class="container-md border rounded p-3 d-flex gap-3 justify-content-start flex-column">
             <h3 class="tittle">Escrever artigo</h3>
             <form action="escrita.php" method="post">
-            <input type="text" required class="form-control" placeholder="Título" name="titulo_artigo" id="titulo_artigo">
-            <textarea name="texto_artigo" required style="resize: none;" class="form-control" placeholder="Digite seu texto" id="texto_artigo" cols="30" rows="10"></textarea>
+            <input type="text" required class="form-control" placeholder="Título" name="titulo" id="titulo" value="<?=_v($data,"titulo")?>">
+            <textarea name="texto" value="<?=_v($data,"texto")?> required style="resize: none;" class="form-control" placeholder="Digite seu texto" id="texto" cols="30" rows="10"></textarea>
             <input type="submit" class="btn btn-primary" value="Salvar e enviar">
             </form>
         </div>
-    </div>
+</div>
 
 <form method='POST' action='<?=route('artigos/salvar/'._v($data,"id"))?>'>
 
